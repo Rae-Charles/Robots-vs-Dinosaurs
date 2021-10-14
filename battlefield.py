@@ -4,7 +4,10 @@ from herd import Herd
 class Battlefield:
     def __init__(self):
         self.fleet = Fleet()
+        self.herd = Herd()
 
+    def __init__(self):
+        print("Welcome to Robots vs Dinosuars.")
 
     def run_game(self):
         health = > 0
